@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Магаз Philips</title>
+	<link href="img/logo.png" rel="shortcut icon" type="image/x-icon" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      <script>
+      	$(document).ready(function(){
+      		$('.show_form').click(function() {
+      			$(".feedback_form_bg").css("display","block");
+      		});
+      		$('.feedback_form_bg').click(function() {
+      			$(".feedback_form_bg").css("display","none");
+      		});
+      		$('#forma').click(function(e){
+      			e.stopPropagation();
+      		});
+      	});
+      </script>
+  </head>
+  <body>
+  	<?php include("Send_form.php"); ?>
+  	<header>
+  		<nav class="navbar navbar-default menu">
+  			<div class="container">
+  				<div class="navbar-header">
+  					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  						<span class="sr-only">Toggle navigation</span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  					</button>
+  					<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+  				</div>
+
+  				<!-- Collect the nav links, forms, and other content for toggling -->
+  				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  					<ul class="nav navbar-nav">
+  						<li class="active-link"><a href="#">хиты</a></li>
+  						<li><a href="#">продукция</a></li>
+  						<li><a href="#">акции!</a></li>
+  						<li><a href="#">о нас</a></li>
+  						<li><a href="#">контакты</a></li>
+  					</ul>
+  					<ul class="nav navbar-nav navbar-right icons">
+  						<li><a href="#"><img src="img/facebook.png" height="26" width="27"></a></li>
+  						<li><a href="#"><img src="img/twitter.png" height="26" width="26"></a></li>
+  						<li><a href="#"><img src="img/google_plus.png" height="26" width="25"></a></li>
+  						<li><a href="#"><img src="img/rss.png" height="26" width="25"></a></li>
+  					</ul>
+  				</div><!-- /.navbar-collapse -->
+  				<i class="glyphicon glyphicon-globe globe"></i>
+  			</div><!-- /.container -->
+  		</nav>
+  	</header>
+  	<div>
+  	</div>
+  	<div class="content">
+  		<div class="container">
+  			<div class="slogan">
+  				<h1>Добро пожаловать в интернет-магазин <span>Philips</span> Здесь Вас ждёт 				                    огромный выбор товаров для кухни, для красоты и не только.<br>               		<span>Philips</span> изменит жизнь к лучшему!</h1>
+  			</div>
+  			<div class="row">
+  				<div class="card-row clearfix">
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Чайники</h4></a>
+  							<p>для кухни</p>
+  							<a href="#"><img src="img/photo/1.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Блендеры</h4></a>
+  							<p>для кухни</p>
+  							<a href="#"><img src="img/photo/2.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Мясорубки</h4></a>
+  							<p>для кухни</p>
+  							<a href="#"><img src="img/photo/3.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Мультиварки</h4></a>
+  							<p>для кухни</p>
+  							<a href="#"><img src="img/photo/4.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  				</div>
+
+  				<hr class="hidden-lg hidden-md">
+
+  				<div class="card-row clearfix">
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Утюги</h4></a>
+  							<p>уход за одеждой</p>
+  							<a href="#"><img src="img/photo/5.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Отпариватели</h4></a>
+  							<p>уход за одеждой</p>
+  							<a href="#"><img src="img/photo/6.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Гладильные доски</h4></a>
+  							<p>уход за одеждой</p>
+  							<a href="#"><img src="img/photo/7.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Парогенераторы</h4></a>
+  							<p>уход за одеждой</p>
+  							<a href="#"><img src="img/photo/8.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  				</div>
+
+  				<hr class="hidden-lg hidden-md">
+
+  				<div class="card-row clearfix">
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Бритвы</h4></a>
+  							<p>для красоты</p>
+  							<a href="#"><img src="img/photo/9.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Машинки для стрижки</h4></a>
+  							<p>для красоты</p>
+  							<a href="#"><img src="img/photo/10.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Фены</h4></a>
+  							<p>для красоты</p>
+  							<a href="#"><img src="img/photo/11.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  					<div class="col-md-3 col-sm-6">
+  						<div class="card">
+  							<a href="#"><h4>Стайлеры</h4></a>
+  							<p>для красоты</p>
+  							<a href="#"><img src="img/photo/12.jpg" height="173" width="218"></a>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+  			<nav class="nav-pager">
+  				<ul class="pagination">
+  					<li>
+  						<a href="#" aria-label="Previous">
+  							<span aria-hidden="true">&laquo;</span>
+  						</a>
+  					</li>
+  					<li class="active"><a href="#">1</a></li>
+  					<li><a href="#">2</a></li>
+  					<li><a href="#">3</a></li>
+  					<li><a href="#">4</a></li>
+  					<li><a href="#">5</a></li>
+  					<li>
+  						<a href="#" aria-label="Next">
+  							<span aria-hidden="true">&raquo;</span>
+  						</a>
+  					</li>
+  				</ul>
+  			</nav>
+  		</div>
+  	</div>
+
+  	<footer>
+  		<div class="container">
+  			<hr>
+  			<p class="pull-right">Designed by Serg</p>
+  		</div>
+  	</footer>
+
+  	<script src="http://code.jquery.com/jquery.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/main.js"></script>
+  </body>
+  </html>
