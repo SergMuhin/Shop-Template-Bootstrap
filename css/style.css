@@ -5,6 +5,18 @@ body{
 	background: #fdfcfb;
 	font-weight: normal;
 }
+
+.card img {
+	width: 218px;
+	height: 173px;
+}
+
+.navbar-nav img {
+	height: 27px;
+	width: 27px;
+}
+
+
 img{
 	max-width: 100%;
 }
